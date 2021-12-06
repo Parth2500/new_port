@@ -1,0 +1,10 @@
+export { default as Header } from './Header';
+export { default as Footer } from './footer';
+export { default as Layout } from './Layout';
+export { default as Sidebar } from './Sidebar';
+export { default as Intro } from './intro';
+export { default as Type } from './Type';
+export { default as Projects } from './projects';
+export { default as Project } from './project';
+export { default as About } from './about';
+export { default as BTT } from './btt';
