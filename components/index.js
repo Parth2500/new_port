@@ -8,3 +8,4 @@ export { default as Projects } from './projects';
 export { default as Project } from './project';
 export { default as About } from './about';
 export { default as BTT } from './btt';
+export { default as Contact } from './contact';

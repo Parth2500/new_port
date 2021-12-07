@@ -10,6 +10,7 @@ function Type() {
           "Lorem Ipsum",
           "dolor sit amet",
           "consectetur adipiscing",
+          "hello"
         ],
         autoStart: true,
         loop: true,

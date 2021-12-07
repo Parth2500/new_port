@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Sidebar = () => {
     return (
-        <div className = "container mx-auto sticky top-1/3 px-4">
+        <div className = "container mx-auto top-1/2 px-4 fixed right-8">
             <div className = "bg-gray-400 float-right border-2 border-gray-100 py-3">
                 <Link href = "https://www.instagram.com/">
                     <span className = "cursor-pointer  hover:text-purple-600 text-white">

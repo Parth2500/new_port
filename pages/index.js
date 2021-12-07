@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { About, Intro, Projects } from '../components';
+import { About, Intro, Projects, Contact } from '../components';
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
         <Intro/>
         <Projects/>
         <About/>
+        <Contact/>
       </div>
     </div>
   )

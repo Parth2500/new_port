@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const Header = () => {
     const aa = [{name: 'Projects'}, {name: 'about'}, {name: 'Contact Us'}]
+    const [showBack, setShowBack] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+          if (window.pageYOffset > 100) {
+            setShowBack(true);
+          } else {
+            setShowBack(false);
+          }
+        });
+      }, []);
 
     return (
-        <div className = "w-full px-4 sticky top-0 z-10 lg:px-24 bg-arsenic-dark bg-opacity-70 backdrop-blur shadow">
-            <div className = "w-full inline-block py-4">
+        <div className = "w-full px-4 sticky top-0 z-10 lg:px-24 bg-arsenic-dark dark:bg-white bg-opacity-70 backdrop-blur shadow">
+            <div className = "w-full inline-block py-4 text-lg">
                 <div className = "text-center float-left block">
                     <Link href = "/">
                         <span className = "cursor-pointer transition duration-1000 ease-in-out hover:text-turquoise font-bold text-4xl text-white">
