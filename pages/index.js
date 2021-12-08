@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className = "container mx-auto px-4 mb-8 lg:px-24">
       <Head>
-        <title>Create Next App</title>
+        <title>Parth | Portfolio</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       
